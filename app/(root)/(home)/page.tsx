@@ -1,8 +1,6 @@
 'use client';
 
 import MeetingTypeList from '@/components/MeetingTypeList';
-import UpcomingPage from './upcoming/page';
-import { startOfHour } from 'date-fns';
 import { useGetCalls } from '@/components/hooks/useGetCalls';
 
 
