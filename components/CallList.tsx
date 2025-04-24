@@ -85,6 +85,7 @@ const CallList = ({ type }: { type: 'ended' | 'upcoming' | 'recordings' }) => {
               (meeting as Call).state?.startsAt?.toLocaleString() ||
               (meeting as CallRecording).start_time?.toLocaleString()
             }
+            
             isPreviousMeeting={type === 'ended'}
             link={
               type === 'recordings'
